@@ -280,7 +280,7 @@ body{
     </div> -->
     <div class="context">
         <div class="heading-container">
-             <img src="~/assets/images/DEV-LES_NEW.png"  alt="Avatar" class="avatar profile-container">
+             <img src="~assets/images/DEV-LES_NEW.png"  alt="Avatar" class="avatar profile-container">
              <h2 class="label">DEV-LES</h2>
         </div>
         <div class="link-container">
