@@ -280,7 +280,7 @@ body{
     </div> -->
     <div class="context">
         <div class="heading-container">
-             <img :src="`${mainIcon}`"  alt="Avatar" class="avatar profile-container">
+             <img src="~/assets/images/DEV-LES_NEW.png"  alt="Avatar" class="avatar profile-container">
              <h2 class="label">DEV-LES</h2>
         </div>
         <div class="link-container">
@@ -313,7 +313,6 @@ body{
 </template>
 
 <script>
-import devlesIcon from '../assets/images/DEV-LES_NEW.png'
 import youtubeIcon from '../assets/images/youtube.png';
 import tiktokIcon from '../assets/images/tik-tok.png';
 import instagramIcon from '../assets/images/instagram.png'
