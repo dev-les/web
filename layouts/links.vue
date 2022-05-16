@@ -324,7 +324,6 @@ export default {
     },
     data() {
         return {
-            mainIcon: devlesIcon,
             linkList: [
                 {
                     name: 'YouTube',
