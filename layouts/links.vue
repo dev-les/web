@@ -262,22 +262,6 @@ body{
 </style>
 <template>
     <div>
-    <!-- <div class="main-container">
-        <div class="heading-container">
-             <img src="../assets/images/DEV-LES_NEW.png"  alt="Avatar" class="avatar profile-container">
-             <h2 class="label">DEV-LES</h2>
-        </div>
-        <div class="link-container"> -->
-            <!-- add this to <a> :href="`${action.url}`" -->
-            <!-- <a @click="playSound" class="card-wrapper" v-for="(action, index) of linkList"
-            :key="index" >
-            <div class="content social-media-link">
-                    <img class="social-media-icon" :src="`${action.iconUrl}`" />
-                    <h3 style="width:80%">{{action.name}}</h3>
-                </div>
-            </a>
-        </div>
-    </div> -->
     <div class="context">
         <div class="heading-container">
              <img src="~assets/images/DEV-LES_NEW.png"  alt="Avatar" class="avatar profile-container">
@@ -317,6 +301,8 @@ import youtubeIcon from '../assets/images/youtube.png';
 import tiktokIcon from '../assets/images/tik-tok.png';
 import instagramIcon from '../assets/images/instagram.png'
 import twitterIcon from '../assets/images/twitter.png';
+import vrIcon from '../assets/images/vr-goggles.png';
+import githubIcon from '../assets/images/github.png';
 const notificationSound = require('@/assets/sounds/jump.wav').default;
 export default {
     head: {
@@ -347,8 +333,13 @@ export default {
                 },
                 {
                     name: 'Github',
-                    url:'',
-                    iconUrl: 'https://cdn-icons-png.flaticon.com/512/38/38401.png'
+                    url:'https://github.com/dev-les',
+                    iconUrl: githubIcon,
+                },
+                {
+                    name: 'Metaverse',
+                    url:'https://dev-les.github.io/metaverse_demo/',
+                    iconUrl: vrIcon,
                 },
             ],
             notificationSound,
