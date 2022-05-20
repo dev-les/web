@@ -268,7 +268,6 @@ body{
              <h2 class="label">DEV-LES</h2>
         </div>
         <div class="link-container">
-            <!-- add this to <a> :href="`${action.url}`" -->
             <a @click="playSound" :href="`${action.url}`" class="card-wrapper" v-for="(action, index) of linkList"
             :key="index" >
             <div class="content social-media-link">
