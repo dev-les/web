@@ -1,6 +1,6 @@
 <style>
 .links-container {
-background-color: #343a40;
+background-color: #272a34;
 }
 </style>
 <template class="links-container">

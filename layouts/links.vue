@@ -6,10 +6,6 @@
     padding: 0px;
 }
 
-body{
-    font-family: 'Exo', sans-serif;
-}
-
 
 .context {
     width: 100%;
@@ -243,7 +239,6 @@ body{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: "Poppins", sans-serif;
         user-select: none;
     }
     *::before,
