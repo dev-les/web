@@ -93,14 +93,17 @@
 
 <script setup>
 import { ref } from 'vue'
+// import { onMounted } from "vue";
 let contact  = ref(false);
-let  baseUrl = ref(process.env.BASE_URL || 'http://localhost:3000')
-let submitFormUrl = ref(process.env.FORM_URL || 'http://localhost:3000')
+let  baseUrl = ref(process.env.baseUrl)
+let submitFormUrl = ref(process.env.formUrl)
 let form = ref({
           email: '',
           subject: '',
           message: ''
         });
+// onMounted(() => {
+// })
 function onReset(event) {
     event.preventDefault()
     // Reset our form values
