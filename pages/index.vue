@@ -66,7 +66,7 @@
     /* When on medium sized screens, we center it by evenly distributing empty space around items */
     flex-flow: column wrap;
     align-items: center;
-    padding-top: 60px;
+    padding-top: 90px;
   }
   .block {
     width: 100%;
@@ -75,6 +75,9 @@
   }
   .about {
     padding-bottom: 20px;
+  }
+  .parallax {
+    min-height: 550px;
   }
   
 }
