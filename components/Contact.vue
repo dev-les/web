@@ -69,15 +69,13 @@
                     required
                   ></b-form-input>
                 </b-form-group>
-                <b-form-group id="input-group-2" label="Message:" label-for="input-2">
+                <b-form-group id="input-group-3" label="Message:" label-for="input-3">
                     <b-form-textarea
                       id="input-3"
                       v-model="form.message"
                       name="message"
                       placeholder="Enter your message..."
                       required
-                      rows="3"
-                      max-rows="6"
                     ></b-form-textarea>
                 </b-form-group>
                 <div>

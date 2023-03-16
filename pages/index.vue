@@ -56,7 +56,7 @@
 .container {
   display: flex;
   align-items: center;
-  padding-top: 25px;
+  padding-top: 100px;
 }
 .title {
   text-decoration: none;
@@ -66,6 +66,7 @@
     /* When on medium sized screens, we center it by evenly distributing empty space around items */
     flex-flow: column wrap;
     align-items: center;
+    padding-top: 60px;
   }
   .block {
     width: 100%;
@@ -85,9 +86,9 @@
 </div>
 <div>
 <div class="text-style">
-    <div class="container">
+    <div id="aboutMe" class="container">
           <div class="block about">
-            <h2 id="aboutMe">About Me</h2>
+            <h2>About Me</h2>
             <div>Hi! My name is Luis. I am a full stack developer based in Charlotte, NC. I am passionate about learning and building cool things that I can share with others on the internet.
               My interest in software started back in 2014 while learning to program robots in high school.
             <br><br> 
@@ -107,27 +108,27 @@
             <img class="profile-pic" :src="require('../assets/images/profile-pic.jpg')">
           </div>
     </div>
-    <div class="container">
+    <div id="skills" class="container">
       <div class="block">
-        <h2 id="skills">Skills</h2>
+        <h2>Skills</h2>
         <Skill/>
       </div>
     </div>
-    <div class="container">
+    <div id="experience" class="container">
       <div class="block">
-        <h2 id="experience">Experience</h2>
+        <h2>Experience</h2>
         <Experience/>
       </div>
     </div>
-    <div class="container">
+    <div id="projects" class="container">
       <div class="block">
-        <h2 id="projects">Projects</h2>
+        <h2>Projects</h2>
         <Projects/>
       </div>
     </div>
-    <div class="container">
+    <div id="contact" class="container">
       <div class="block">
-        <h2 id="contact">Contact</h2>
+        <h2>Contact</h2>
         <Contact/>
       </div>
     </div>
