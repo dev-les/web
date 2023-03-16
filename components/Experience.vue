@@ -60,6 +60,7 @@
         <div class="skill-container">
              <img class="truist" :src="`${exp.logo}`"/>
             <div style="padding-top:10px;"><b>{{exp.name}}</b></div>
+            <div style="padding-top:10px;"><b>{{exp.title}}</b></div>
             <div style="padding-top:5px;">{{exp.date}}</div>
         </div>
         <div class="job-decription">
@@ -79,14 +80,14 @@ import { ref } from 'vue'
 import { onMounted } from "vue";
 let expDisplayed = ref([]);
 let option = ref('truist');
-let experiences = [{name: "Truist Financial Corporation", logo:require("../assets/images/truist.png"), description:['Contributed to the development and release of a retail online banking application using Angular, Java, & Typescript,',
+let experiences = [{name: "Truist Financial Corporation", title:"Software Engineer", logo:require("../assets/images/truist.png"), description:['Contributed to the development and release of a retail online banking application using Angular, Java, & Typescript,',
 'Advanced the development of an internal admin web application using NuxtJS',
 'Automated a pipeline process to deploy configuration servers across 3 different environments. using Gitlab, Docker, and Openshift',
-'Mentored 3 Junior developers, 2 interns, and helped expand thier Javascript, git, and CI/CD skillset',
+'Mentored 3 Junior developers, 2 interns, and helped expand their Javascript, git, and CI/CD skillset',
 'Worked on an Emerging Channels team to develop Full Stack MVP projects including a chatbot, video streaming service, and Amazon Alexa Skills',
 'Created documentation to help new teammates setup and run Node.js applications',
 'Developing and maintaining a React Native gaming application.'], position:"Software Engineer", date:'July 2020 - Present', type:'truist'},
-{name: "MASCO Support Services", logo:require("../assets/images/masco-sqr.png"), description:['Aided in the development of  the companies first mobile application using Xamarin framework, REST API, and Azure Cloud Services.',
+{name: "MASCO Support Services", title:"IT Intern", logo:require("../assets/images/masco-sqr.png"), description:['Aided in the development of  the company\'s first mobile application using Xamarin framework, REST API, and Azure Cloud Services.',
 'Successfully converted VB code from a desktop app to a C# app.',
 'Automated a weekly sales report using Excel, VBA, and a tabular model.',
 'Debugged and added features to companies WPF application using VB code.'], position:"IT Intern", date:'May 2019 - July 2020', type:'masco'},];

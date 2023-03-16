@@ -79,7 +79,7 @@
 }
 </style>
 <template>
-<div class="backgroundColor">
+<div  class="backgroundColor">
 <div class="parallax">
   <Terminal/>
 </div>
@@ -88,12 +88,12 @@
     <div class="container">
           <div class="block about">
             <h2 id="aboutMe">About Me</h2>
-            <div>Hi! my name is Luis. I am a full stack developer based in Charlotte, NC. I am passionate about learning and building cool things that I can share with others on the internet;.
-              My interest for software started back in 2014 while learning to program robots in high school.
+            <div>Hi! My name is Luis. I am a full stack developer based in Charlotte, NC. I am passionate about learning and building cool things that I can share with others on the internet.
+              My interest in software started back in 2014 while learning to program robots in high school.
             <br><br> 
             Jump to today, I've graduated cum laude from the  <span class="link"><a href="https://www.charlotte.edu/">University of North Carolina at Charlotte</a> &#9935;</span> in 2020 with a Bachelor of Science (B.S.) in Computer Science, and have been lucky enough to get to work for a 
             <span class="link">
-              <a href="https://jobs.masco.com/mascosupportservices/us/en/">Customer Suport Service Company</a> and the
+              <a href="https://jobs.masco.com/mascosupportservices/us/en/">customer support service company</a> and the
             </span>
             <span class="link">
               <a href="https://www.truist.com/">seventh largest bank in the US</a>. Nowadays I mainly focus on further developing and maintaining a react native gaming application at 

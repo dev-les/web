@@ -89,7 +89,7 @@
                     <div class="tech-container">
                     <h5>Tech used</h5>
                     <div class="tech">
-                        <div v-for="(item, index) of project.tech" :key="index"> &nbsp; {{item}} <span v-if="index !== project.tech.length - 1">,</span></div>
+                        <div v-for="(item, index) of project.tech" :key="index"> &nbsp; {{item}}<span v-if="index !== project.tech.length - 1">,</span></div>
                     </div>
                     <h5 style="padding-top:10px">Links</h5>
                      <b-container class="bv-example-row project-links ">
@@ -133,11 +133,11 @@ import { onMounted } from "vue";
 let projDisplayed = ref([]);
 let selected = ref(false);
 let project = ref({});
-let projects = [{name: 'Spotify VR Player', opt:"SVRP", img:require('../assets/images/spotifyVR.png'),gif:require('../assets/gifs/spotifyvr.gif'), description:'Web app spotify player that lets you connect to your spotify account and play music in a metaverse', vid:'https://youtu.be/a3mAyD_UNoY', tech:['React.js', 'Express.js','Node.js','Spotify API', 'Spotify SDK']},
-{name: 'React Metaverse', opt:"RCTM", img:require("../assets/images/metaverse.png"), gif:require('../assets/gifs/metaverse.gif'), description:'A Web VR Metaverse of a sci-fi purple mountainous planet', vid:'https://youtu.be/J9Snqj3D3cg', github:'https://github.com/dev-les/React-Metaverse', tech:['React.js', 'Node.js','Aframe']},
-{name: 'Lazy Loading', opt:"LZL",  img:require("../assets/images/Lazyload.png"), gif:require('../assets/gifs/lazyload.gif') , description:'A Full Stack implementaion of a lazy load or infinite scroll', vid:'https://youtu.be/nf26d8SHwaw', github:'https://github.com/dev-les/lazy-load', tech:['Vue.js', 'Express.js','Node.js','Postgres', 'Docker']},
+let projects = [{name: 'Spotify VR Player', opt:"SVRP", img:require('../assets/images/spotifyVR.png'),gif:require('../assets/gifs/spotifyvr.gif'), description:'Web app spotify player that lets you connect to your spotify account and play music in a metaverse.', vid:'https://youtu.be/a3mAyD_UNoY', tech:['React.js', 'Express.js','Node.js','Spotify API', 'Spotify SDK']},
+{name: 'React Metaverse', opt:"RCTM", img:require("../assets/images/metaverse.png"), gif:require('../assets/gifs/metaverse.gif'), description:'A Web VR Metaverse of a sci-fi purple mountainous planet.', vid:'https://youtu.be/J9Snqj3D3cg', github:'https://github.com/dev-les/React-Metaverse', tech:['React.js', 'Node.js','Aframe']},
+{name: 'Lazy Loading', opt:"LZL",  img:require("../assets/images/Lazyload.png"), gif:require('../assets/gifs/lazyload.gif') , description:'A Full Stack lazy load/infinite scroll implementation.', vid:'https://youtu.be/nf26d8SHwaw', github:'https://github.com/dev-les/lazy-load', tech:['Vue.js', 'Express.js','Node.js','Postgres', 'Docker']},
 {name: 'SMS Admin Chat Bot', opt:"SMSAB",  img:require("../assets/images/adminbot.jpg"), gif:require('../assets/gifs/adminbot.gif'), description:'A poc chat bot that allows you to edit your websites colors and text via sms.', vid:'https://youtu.be/Zpzm5y9hWNU', tech:['React.js', 'Express.js', 'AWS Lexbot', 'AWS Lambda', 'Node.js']},
-{name: 'AR Moving Image', opt:"ARMI",  img:require("../assets/images/movingImage.png"), gif:require('../assets/gifs/movingimg.gif'), description:'Mobile AR app that creates a moving effect on an image when viewed through your phones camera. ', vid:'https://youtu.be/1AQLHCD2sWU', github:'https://github.com/dev-les/Moving_Image', tech:['Swift','ARKit']}];
+{name: 'AR Moving Image', opt:"ARMI",  img:require("../assets/images/movingImage.png"), gif:require('../assets/gifs/movingimg.gif'), description:'Mobile AR app that creates a moving effect on an image when viewed through your phone\'s camera.', vid:'https://youtu.be/1AQLHCD2sWU', github:'https://github.com/dev-les/Moving_Image', tech:['Swift','ARKit']}];
 
 onMounted(() => {
  projDisplayed.value = projects;

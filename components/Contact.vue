@@ -10,6 +10,7 @@
 }
 .form-control {
     background-color: #282a34 !important;
+    color: white !important;
 }
 #contact-me:hover {
     box-shadow: 0 9px 20px -5px #4ef98d;

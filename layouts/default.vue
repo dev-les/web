@@ -70,7 +70,7 @@
         <b-container class="bv-example-row">
             <b-row>
                 <b-col>
-                    <a href="https://www.youtube.com/channel/UCQSook2k99qgz4s_fFzIJnA">
+                    <a href="https://github.com/dev-les">
                         <div class="svg-style">
                             <svg  xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
                                 <title>GitHub</title>
@@ -81,7 +81,7 @@
                     </a>
                 </b-col>
                 <b-col>
-                    <a href="#">
+                    <a href="https://www.youtube.com/channel/UCQSook2k99qgz4s_fFzIJnA">
                     <div class="svg-style">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube">
@@ -100,13 +100,13 @@
                         </div>
                     </a>
                 </b-col>
-                <b-col>
+                <!-- <b-col>
                     <a href="#">
                       <div class="svg-style">
                         <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><title>Instagram</title><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
                       </div>
                     </a>
-                </b-col>
+                </b-col> -->
             </b-row>
         </b-container>
         </div>

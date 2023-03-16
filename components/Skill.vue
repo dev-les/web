@@ -52,9 +52,9 @@ import { onMounted } from "vue";
 let test ="test";
 let skillsDisplayed = ref([]);
 let option = ref('fe');
-let skills = [{name: "Vue", url:require("../assets/images/vue-js-144.png"), type:"fe"},
+let skills = [{name: "React/React-Native", url:require("../assets/images/react-native-144.png"), type:"fe"},
+{name: "Vue.js", url:require("../assets/images/vue-js-144.png"), type:"fe"},
 {name: "Angular", url:require("../assets/images/angularjs-144.png"), type:"fe"},
-{name: "React/React-Native", url:require("../assets/images/react-native-144.png"), type:"fe"},
 {name: "Redux", url:require("../assets/images/redux-144.png"), type:"fe"},
 {name: "Typescript", url:require("../assets/images/typescript-144.png"), type:"fe"},
 {name: "Javascript", url:require("../assets/images/javascript-144.png"), type:"fe"},
