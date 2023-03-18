@@ -79,6 +79,10 @@
   .parallax {
     min-height: 550px;
   }
+  .profile-pic {
+  width: 300px;
+  height: 400px;
+}
   
 }
 </style>
