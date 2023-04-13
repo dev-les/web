@@ -25,7 +25,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-  ],
+    '@/plugins/gtag',
+],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -33,7 +34,6 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxtjs/style-resources',
-    '@nuxtjs/google-analytics',
     '@nuxtjs/dotenv',
   ],
   dotenv: {
@@ -42,15 +42,6 @@ export default {
   env: {
     baseUrl: process.env.BASE_URL || 'http://localhost:3000',
     formUrl: process.env.FORM_URL || 'http://localhost:3000'
-  },
-  googleAnalytics: {
-    // Options
-    id: process.env.GOOGLE_ANALYTICS_ID
-  },
-  publicRuntimeConfig: {
-    googleAnalytics: {
-      id: process.env.GOOGLE_ANALYTICS_ID
-    }
   },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
