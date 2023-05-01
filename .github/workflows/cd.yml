@@ -19,18 +19,15 @@ jobs:
         uses: actions/setup-node@v2.1.2
         with:
           node-version: ${{ matrix.node }} 
+      - name: 'Create env file'
+        run: |
+          echo "${{ secrets.ENV_FILE }}" > .env
 
       - name: Build
         run: |
           echo ${{secrets.FORM_URL}}
           npm install
           npm run generate
-
-      - name: 'Create env file'
-        run: |
-          cd ./dist
-          echo "${{ secrets.ENV_FILE }}" > .env
-          cat .env
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
