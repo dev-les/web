@@ -53,7 +53,7 @@
 <template>
  <div>
   <b-navbar class="nav" toggleable="lg" type="dark" variant="dark">
-    <b-navbar-brand href="/">
+    <b-navbar-brand href="/web">
         <div class="main-header-nav">
           <div class="horiz">
             <img class="logo" src="../assets/images/dev-les-logo.png">
