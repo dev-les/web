@@ -58,6 +58,7 @@ let skills = [{name: "React/React-Native", url:require("../assets/images/react-n
 {name: "Redux", url:require("../assets/images/redux-144.png"), type:"fe"},
 {name: "Typescript", url:require("../assets/images/typescript-144.png"), type:"fe"},
 {name: "Javascript", url:require("../assets/images/javascript-144.png"), type:"fe"},
+{name: "Swift", url:require("../assets/images/swift-144.png"), type:"fe"},
 {name: "NodeJS", url:require("../assets/images/node-js-144.png"), type:"be"},
 {name: "Java", url:require("../assets/images/java-144.png"), type:"be"},
 {name: "Python", url:require("../assets/images/python-144.png"), type:"be"},
