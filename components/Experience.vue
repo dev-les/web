@@ -84,18 +84,26 @@ let expDisplayed = ref([]);
 let option = ref('truist');
 let experiences = [{name: "Truist Financial Corporation", logo:require("../assets/images/truist.png"), 
 positions:[{
-    title:"Frontend Software Engineer",
+    title:"Software Engineer - The Foundry/Long Game Team",
     description:[
         'Collaborated with internal teams including design, QA testers, and backend engineers to integrate a react native application with the banks systems in 6 months.',
-        'Advanced the development of an internal admin web application using NuxtJS',
-        'Automated a pipeline process to deploy configuration servers across 3 different environments. using Gitlab, Docker, and Openshift',
-        'Worked on an Emerging Channels team to develop Full Stack MVP projects including a chatbot, video streaming service, and Amazon Alexa Skills',
-        'Created documentation to help new teammates setup and run Node.js applications',
-        'Developed and presented a VR bank branch as a proof of concept to showcase some of the possibilities of VR to the bank\'s board of directors.'], 
-    date:'October 2021 - Present'},
-  {title:"Web Software Engineer",
+        'Spearheaded the design and implementation of an automated build and distribution pipeline for a React Native app, significantly streamlining the Dev to QA handover time from 2/3 days to just 20 minutes',
+        'Optomized the perfrmance of background refresh for a react native application.',
+        'Addressed bugs and implemented additional features for a React Native mobile savings game.'
+        ], 
+    date:'June 2022 - Present'},{
+    title:"Software Engineer - Emerging Channels Team",
     description:[
-      'Played an integral role in the development and release of a retail online banking application.',
+        'Collaborated within an Emerging Channels team to create Full Stack MVP projects, encompassing a chatbot, video streaming service, and Amazon Alexa Skills',
+        'Contributed in end-to-end web development of an internal admin tool while using an iterative Scrum-based approach',
+        'Engineered a full-stack feature for an internal administrative tool, enabling seamless uploading of media content to a Content Delivery Network (CDN).',
+        'Generated comprehensive documentation for assisting new team members in configuring and operating Node.js applications.',
+        'Designed and delivered a VR bank branch as a proof of concept to demonstrate the potential applications of VR technology to the bank\'s board of directors.',
+        ], 
+    date:'October 2021 - June 2022'},
+  {title:"Software Engineer - Retail Web Team",
+    description:[
+      'Led the development of full stack features for online banking web application, employing Java, Spring Boot, and Angular technologies',
       'Developed a script to find hard coded css properties and replace them with design system tokens, helping save weeks of work for the team.',
       'Updated a fully responsive transaction table from an Angular material component to an in house design system table component.',
       'Lead the team\'s efforts in fixing major accessibility issues for the online banking app.'], 
@@ -107,10 +115,10 @@ type:'truist'},
 positions:
 [{title:"IT Intern", 
   description:[
-    'Aided in the development of  the company\'s first mobile application using Xamarin framework, REST API, and Azure Cloud Services.',
-    'Successfully converted VB code from a desktop app to a C# app.',
-    'Automated a weekly sales report using Excel, VBA, and a tabular model.',
-    'Debugged and added features to companies WPF application using VB code.'
+    'Contributed to the creation of the company\'s inaugural mobile application utilizing the Xamarin framework, REST API, and Azure Cloud Services.',
+    'Effectively transformed Visual Basic (VB) code from a desktop application into a C# application.',
+    'Implemented automation for a weekly sales report through the utilization of Excel, VBA, and a tabular model.',
+    'Identified and resolved issues, as well as incorporated new features into the company\'s WPF application utilizing Visual Basic (VB) code.'
   ], 
   date:'May 2019 - July 2020'}], 
 type:'masco'
