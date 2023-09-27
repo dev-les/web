@@ -88,7 +88,7 @@ positions:[{
     description:[
         'Collaborated with internal teams including design, QA testers, and backend engineers to integrate a react native application with the banks systems in 6 months.',
         'Spearheaded the design and implementation of an automated build and distribution pipeline for a React Native app, significantly streamlining the Dev to QA handover time from 2/3 days to just 20 minutes',
-        'Optomized the perfrmance of background refresh for a react native application.',
+        'Optimized the performance of background refresh for a react native application.',
         'Addressed bugs and implemented additional features for a React Native mobile savings game.'
         ], 
     date:'June 2022 - Present'},{
@@ -97,13 +97,14 @@ positions:[{
         'Collaborated within an Emerging Channels team to create Full Stack MVP projects, encompassing a chatbot, video streaming service, and Amazon Alexa Skills',
         'Contributed in end-to-end web development of an internal admin tool while using an iterative Scrum-based approach',
         'Engineered a full-stack feature for an internal administrative tool, enabling seamless uploading of media content to a Content Delivery Network (CDN).',
+        'Automated a pipeline process to deploy configuration servers across test and dev environments, using Bash commands, Spring Config Server, Docker, and Gitlab.',
         'Generated comprehensive documentation for assisting new team members in configuring and operating Node.js applications.',
         'Designed and delivered a VR bank branch as a proof of concept to demonstrate the potential applications of VR technology to the bank\'s board of directors.',
         ], 
     date:'October 2021 - June 2022'},
   {title:"Software Engineer - Retail Web Team",
     description:[
-      'Led the development of full stack features for online banking web application, employing Java, Spring Boot, and Angular technologies',
+      'Collaborated in the development of full stack features for online banking web application, employing Java, Spring Boot, and Angular technologies',
       'Developed a script to find hard coded css properties and replace them with design system tokens, helping save weeks of work for the team.',
       'Updated a fully responsive transaction table from an Angular material component to an in house design system table component.',
       'Lead the team\'s efforts in fixing major accessibility issues for the online banking app.'], 
