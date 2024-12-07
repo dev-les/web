@@ -99,13 +99,12 @@
             <div>Hi! My name is Luis. I am a full stack developer based in Charlotte, NC. I am passionate about learning and building cool things that I can share with others on the internet.
               My interest in software started back in 2014 while learning to program robots in high school.
             <br><br> 
-            Jump to today, I've graduated cum laude from the  <span class="link"><a href="https://www.charlotte.edu/">University of North Carolina at Charlotte</a> &#9935;</span> in 2020 with a Bachelor of Science (B.S.) in Computer Science, and have been lucky enough to get to work for a 
+            Fast forward to today: I graduated cum laude from the  <span class="link"><a href="https://www.charlotte.edu/">University of North Carolina at Charlotte</a> &#9935;</span> in 2020 with a B.S.in Computer Science. Since then, I’ve had the opportunity to work for a
             <span class="link">
-              <a href="https://jobs.masco.com/mascosupportservices/us/en/">customer support service company</a> and the
+              <a href="https://jobs.masco.com/mascosupportservices/us/en/">customer support service company</a>,
             </span>
             <span class="link">
-              <a href="https://www.truist.com/">seventh largest bank in the US</a>. Nowadays I mainly focus on further developing and maintaining a react native gaming application at 
-              <a href="https://www.truist.com/">Truist</a>.
+              <a href="https://www.truist.com/">seventh largest bank in the US</a>, and a <a href="https://www.xenial.com/">enterprise POS company</a>. Currently, my focus is on enhancing and maintaining a ChatGpt AI-powered audit system at <a href="https://www.ally.com/">Ally Financial</a>.
             </span>
             <br><br>
             <div>Some of my hobbies include watching football &#127944;, movies &#127916;,  listening to music &#127911;, gaming &#127918;, and creating <span class="link"> <a href="https://www.youtube.com/@dev-les/">software engineering videos on youtube</a></span> <img width="22px" height="20px" src="../assets/images/youtube.png">.</div>

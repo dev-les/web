@@ -44,7 +44,7 @@
 .terminal-window section.terminal {
   color: white;
   font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
-  font-size: 11pt;
+  font-size: large;
   background: #302e2d;
   padding: 10px;
   box-sizing: border-box;
@@ -130,7 +130,7 @@ let history = ref('');
 var i = 0;
 var rec= 0;
 var txt = ['Welcome to my website! &#128640;'];
-var message = '# &#128075; Hi, my name is Luis Sanchez <br>#<br> # I am a fullstack engineer &#128187; specializing in developing exceptional digital experiences<br><br>';
+var message = '# &#128075; Hi, my name is Luis Sanchez <br>#<br> # I am a Fullstack Engineer &#128187; specializing in developing exceptional digital experiences<br><br>';
 var speed = 70;
 
 function typeWriter() {
