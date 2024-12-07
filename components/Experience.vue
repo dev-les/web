@@ -85,7 +85,7 @@ import { ref } from 'vue'
 import { onMounted } from "vue";
 import { experiences } from '../data/experienceData'
 let expDisplayed = ref([]);
-let option = ref('truist');
+let option = ref('ally');
 
 onMounted(() => {
  expDisplayed.value = filterByVal(option.value);
